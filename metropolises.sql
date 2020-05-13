@@ -1,8 +1,6 @@
-USE CHANGE_THIS_TO_YOUR_DB_NAME;
-  -- >>>>>>>>>>>> change this line so it uses your database, not mine <<<<<<<<<<<<<<<
+USE miralmetro;
   
 DROP TABLE IF EXISTS metropolises;
- -- remove table if it already exists and start from scratch
 
 CREATE TABLE metropolises (
     metropolis CHAR(64),
